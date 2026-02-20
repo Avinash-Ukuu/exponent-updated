@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.top_site_main {
+    background-image: url(../image/cake_background.webp);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 400px;
+}
+
+.page-title {
+    font-size: 36px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 10px; 
+}
+
+.containerCustom {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.breadcrumb {
+    font-size: 16px; 
+    margin: 20px 0;
+}
+
+.breadcrumb a {
+    color: #000000;
+    text-decoration: none; 
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline; 
+}
+
+.postarticles {
+    margin-top: 20px;
+}
+.postarticles_heading{
+    font-size: 34px;
+}
+
+.postarticles_img {
+    width: 1125px;
+    height: 500px;
+}
+.postarticles p{
+    font-size: 17px;
+}
+
+p, h2, h3, h4 {
+    margin-top: 10px;
+}
+
+.top_site_main img {
+  
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%; 
+        padding: 10px; 
+    }
+
+    .page-title {
+        font-size: 24px; 
+    }
+
+    .breadcrumb {
+        font-size: 14px; 
+    }
+
+    p, h3, h4 {
+        margin-top: 10px;
+        font-size: 32px;
+    }
+    .postarticles_heading {
+        font-size: 41px;
+    }
+}
+
+@media only screen and (max-width: 1204px) {
+    .container {
+        width: 1200px; 
+        
+    }
+
+    .page-title {
+        font-size: 36px; 
+    }
+
+    .breadcrumb {
+        font-size: 16px; 
+    }
+     p, h3, h4 {
+        margin-top: 10px;
+        font-size: 32px;
+    }
+    .postarticles img {
+        margin-top: 20px;
+        width: 100%; /* Set width to 100% to make it responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}

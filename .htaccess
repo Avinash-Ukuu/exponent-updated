@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect requests like blogs/link to blog-detail.php
+RewriteRule ^blogs/([a-zA-Z0-9-]+)$ blog-detail.php?link=$1 [L,QSA]

@@ -1,0 +1,46 @@
+[18-Feb-2021 11:12:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 591
+[18-Feb-2021 11:12:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 591
+[18-Feb-2021 11:12:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 616
+[18-Feb-2021 11:12:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 616
+[18-Feb-2021 11:12:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 616
+[18-Feb-2021 11:12:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 616
+[18-Feb-2021 11:14:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 616
+[18-Feb-2021 11:14:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 616
+[18-Feb-2021 11:15:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 650
+[18-Feb-2021 11:15:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-add.php on line 650
+[18-Feb-2021 11:26:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rwwgzfwvw9d7/public_html/galaxytechno/admin/employee-edit.php on line 667
+[03-Apr-2023 15:43:54 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'issue_date' in 'field list' in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php:37
+Stack trace:
+#0 /home2/exponentinstitut/public_html/admin/mark-sheet-print.php(37): mysqli_query(Object(mysqli), 'UPDATE `tb_tot_...')
+#1 {main}
+  thrown in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php on line 37
+[03-Apr-2023 15:44:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'issue_date' in 'field list' in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php:37
+Stack trace:
+#0 /home2/exponentinstitut/public_html/admin/mark-sheet-print.php(37): mysqli_query(Object(mysqli), 'UPDATE `tb_tot_...')
+#1 {main}
+  thrown in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php on line 37
+[03-Apr-2023 15:44:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'issue_date' in 'field list' in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php:37
+Stack trace:
+#0 /home2/exponentinstitut/public_html/admin/mark-sheet-print.php(37): mysqli_query(Object(mysqli), 'UPDATE `tb_tot_...')
+#1 {main}
+  thrown in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php on line 37
+[03-Apr-2023 15:44:18 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'issue_date' in 'field list' in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php:37
+Stack trace:
+#0 /home2/exponentinstitut/public_html/admin/mark-sheet-print.php(37): mysqli_query(Object(mysqli), 'UPDATE `tb_tot_...')
+#1 {main}
+  thrown in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php on line 37
+[03-Apr-2023 15:44:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'issue_date' in 'field list' in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php:37
+Stack trace:
+#0 /home2/exponentinstitut/public_html/admin/mark-sheet-print.php(37): mysqli_query(Object(mysqli), 'UPDATE `tb_tot_...')
+#1 {main}
+  thrown in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php on line 37
+[03-Apr-2023 15:45:14 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'issue_date' in 'field list' in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php:37
+Stack trace:
+#0 /home2/exponentinstitut/public_html/admin/mark-sheet-print.php(37): mysqli_query(Object(mysqli), 'UPDATE `tb_tot_...')
+#1 {main}
+  thrown in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php on line 37
+[28-Sep-2023 17:39:45 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'issue_date' in 'field list' in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php:37
+Stack trace:
+#0 /home2/exponentinstitut/public_html/admin/mark-sheet-print.php(37): mysqli_query(Object(mysqli), 'UPDATE `tb_tot_...')
+#1 {main}
+  thrown in /home2/exponentinstitut/public_html/admin/mark-sheet-print.php on line 37

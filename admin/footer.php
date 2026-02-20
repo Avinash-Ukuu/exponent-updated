@@ -1,0 +1,1 @@
+ <!-- /. Footer Start Wrapper --> <footer class="main-footer">          <strong>Copyright &copy; 2020-2021 <a href="#">Exponent Institute </a>.</strong> All rights reserved.     <div class="float-right d-none d-sm-block">         <b>Developed by</b> Social Simba     </div> </footer> <!-- /. Footer End Wrapper -->

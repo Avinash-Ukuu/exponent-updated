@@ -1,0 +1,141 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.top_site_main {
+    background-image: url(../image/blog-cover.webp);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 400px;
+}
+
+.containerCustom {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center; 
+    height: 100%;
+}
+
+.page-title {
+    font-size: 36px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.breadcrumb {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.breadcrumb a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.thim-blog-top {
+    width: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.postarticleimg {
+    margin-top: 20px;
+    max-width: 25%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.postarticles  {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0px 0px 40px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 11px 25px;
+    background-color: #ffb606;
+    border: none;
+    font-size: 13px;
+}
+
+ p {
+    margin-top: 20px;
+}
+h2{
+    margin-top: 20px;
+}
+/* Media Queries */
+@media screen and (max-width: 968px) {
+    .top_site_main { 
+        background-color:#3e3d3dcf;
+        background-image: none; 
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1204px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .postarticles {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .postarticles img {
+        max-width: 50%;
+        margin-bottom: 15px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top_site_main {
+        height: 300px;
+        background-image: none; 
+        background-color:#3e3d3dcf;
+    }
+
+    .postarticles img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .postarticles {
+        gap: 10px;
+    }
+
+    .breadcrumb {
+        font-size: 14px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+}
